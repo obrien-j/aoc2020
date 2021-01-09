@@ -14,7 +14,7 @@ func check(e error) {
 }
 
 func main() {
-	// attempt 1: snarf entire input as a string, slice on newlines
+	// attempt 1: snarf entire input as a string, slice on newlines 
 	input, err := ioutil.ReadFile("./input.txt")
 	check(err)
 
